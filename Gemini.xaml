@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>647,546</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>647,368</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Gemini_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -112,7 +112,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <i:Text_Only_Model out_ResponseContent="{x:Null}" out_ResponseStatus="{x:Null}" DisplayName="Text-Only-Model" sap:VirtualizedContainerService.HintSize="354,215" sap2010:WorkflowViewState.IdRef="Text_Only_Model_1" in_ApiKey="AIzaSyDdgUZsBOUl7-2tlzwGKesnwFVaDAbF2Nk" in_Text="[body + &quot;Generate a reply mail for this so that the concerned student will be able to attend future placements&quot;]" out_text="[response]">
+    <i:Text_Only_Model out_ResponseContent="{x:Null}" out_ResponseStatus="{x:Null}" DisplayName="Text-Only-Model" sap:VirtualizedContainerService.HintSize="354,215" sap2010:WorkflowViewState.IdRef="Text_Only_Model_1" in_ApiKey="AIzaSyDdgUZsBOUl7-2tlzwGKesnwFVaDAbF2Nk" in_Text="[body + &quot;: &#xD;&#xA;Generate a reply mail for this student&#xD;&#xA;so that they will be able to attend future placements. &#xD;&#xA;Mention the student name in the response and fill all the necessary details from the prompt. &#xD;&#xA;replace [Student Name] and other necessary fields in the response with the appropriate name or do not mention it.&#xD;&#xA;Make it not more than 5 lines. &quot;]" out_text="[response]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
